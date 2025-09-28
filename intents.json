@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "python_intro",
+      "patterns": ["Python", "What is Python?", "Explain Python", "Tell me about Python"],
+      "responses": [
+        "Python is a high-level, interpreted programming language created by Guido van Rossum and released in 1991. It's known for its readability and versatility. It supports multiple programming paradigms including procedural, object-oriented, and functional programming."
+      ]
+    },
+    {
+      "tag": "data_types",
+      "patterns": ["data types", "types in Python", "Python data types"],
+      "responses": [
+        "**Python Data Types**:\n- int\n- float\n- str\n- bool\n- list\n- tuple\n- dict\n- set\n\nEach data type represents a different kind of value. For example, `int` for integers, `list` for ordered collections, and `dict` for key-value pairs."
+      ]
+    },
+    {
+      "tag": "control_flow",
+      "patterns": ["if statements", "control flow", "conditions in Python"],
+      "responses": [
+        "**Python If Statement Syntax**:\n```python\nif condition:\n    # code\nelif other_condition:\n    # code\nelse:\n    # code\n```"
+      ]
+    },
+    {
+      "tag": "loops",
+      "patterns": ["for loop", "while loop", "Python loops"],
+      "responses": [
+        "**For Loop**:\n```python\nfor i in range(5):\n    print(i)\n```\n\n**While Loop**:\n```python\nwhile condition:\n    # code\n```"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": ["functions", "define function", "function syntax"],
+      "responses": [
+        "**Function Definition**:\n```python\ndef greet(name):\n    print(f\"Hello, {name}\")\n```\nUse `def` to define functions."
+      ]
+    },
+    {
+      "tag": "classes",
+      "patterns": ["class", "OOP", "object-oriented programming"],
+      "responses": [
+        "**Class Example**:\n```python\nclass Person:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        print(\"Hello, my name is\", self.name)\n```"
+      ]
+    },
+    {
+      "tag": "modules",
+      "patterns": ["modules", "import", "Python libraries"],
+      "responses": [
+        "**Importing Modules**:\n```python\nimport math\nprint(math.sqrt(16))\n```\n\nUse `import` to access libraries like `math`, `datetime`, `os`, etc."
+      ]
+    },
+    {
+      "tag": "exceptions",
+      "patterns": ["try except", "error handling", "exceptions"],
+      "responses": [
+        "**Try-Except Block**:\n```python\ntry:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")\nfinally:\n    print(\"Done\")\n```"
+      ]
+    },
+    {
+      "tag": "file_handling",
+      "patterns": ["file handling", "open file", "read write file"],
+      "responses": [
+        "**File Handling Example**:\n```python\nwith open(\"file.txt\", \"r\") as f:\n    content = f.read()\n```\n\nUse `with open()` for safe file access."
+      ]
+    },
+    {
+      "tag": "comprehensions",
+      "patterns": ["list comprehension", "dict comprehension"],
+      "responses": [
+        "**List Comprehension**:\n```python\nsquares = [x**2 for x in range(10)]\n```\n\n**Dict Comprehension**:\n```python\nsquares = {x: x**2 for x in range(5)}\n```"
+      ]
+    }
+  ]
+}
